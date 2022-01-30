@@ -63,6 +63,13 @@
       </div>
     </div>
   </nav>
+  <?php
+    if (empty($cryptoData)) {
+      noDataFromApi($cryptoData);
+    } else {
+      dataFromApiCoins($cryptoData);
+    }
+  ?>
 </body>
 
 </html>
