@@ -1,0 +1,18 @@
+body {
+  background: url(../assets/bg-animation.gif) no-repeat center center fixed !important;
+  background-size: cover !important;
+}
+
+a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.header {
+  position: sticky !important;
+  top: 0 !important;
+}
+
+.overlay-element {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
