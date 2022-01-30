@@ -35,5 +35,21 @@
       </div>
     </div>
     <?php
+    if (empty($cryptoData)) {
+    ?>
+      <div class="container border border-dark rounded-3 mb-5 px-5 overlay-element">
+        <div class="table-responsive">
+          <table class="table table-borderless">
+            <tbody>
+              <tr class="h5 text-white text-center align-middle">
+                <td>No statistics cryptocurrency data has been found!</td><br>
+                <td>Reload the page or come again later.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+  <?php
+    }
   }
 ?>
