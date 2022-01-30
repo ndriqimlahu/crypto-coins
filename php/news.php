@@ -63,6 +63,10 @@
       </div>
     </div>
   </nav>
+  <h1 class="text-white text-center align-middle">COMING SOON</h1>
+  <?php
+    // call functions here
+  ?>
 </body>
 
 </html>
