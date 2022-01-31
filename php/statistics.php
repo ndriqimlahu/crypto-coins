@@ -41,7 +41,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- JavaScript -->
-  <script src="../js/scripts.js"></script>
+  <script src="../js/scripts.js" type="text/javascript"></script>
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -62,6 +62,9 @@
       </div>
     </div>
   </nav>
+  <div class="container text-center">
+    <button class="btn btn-lg btn-primary" onclick="reloadDataFromApi()">Reload Data</button>
+  </div>
   <?php
     if (empty($statsData)) {
       statsEmptyFromApiCoins($statsData);
