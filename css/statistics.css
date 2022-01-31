@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: url(../assets/bg-statistics.gif) no-repeat center center fixed !important;
   background-size: cover !important;
@@ -15,4 +19,11 @@ a {
 
 .overlay-element {
   background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
 }
