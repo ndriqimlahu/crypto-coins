@@ -51,5 +51,23 @@
         </div>
       </div>
     <?php
+    if (empty($newsData)) {
+    ?>
+      <div class="container d-flex justify-content-around">
+        <div class="row">
+          <div class="col-4">
+            <div class="card rounded-3" style="width: 70rem;">
+              <div class="card-body h5 text-black text-center align-middle">
+                <p class="card-text">No news data has been found!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <?php
+    }
+    ?>
+    <br><br><br><br>
+    <?php
   }
 ?>
