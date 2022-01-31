@@ -10,6 +10,6 @@
   // Decode JSON data into array
   $responseData = json_decode($jsonData);
 
-  // All crypto data exists in 'news' object
+  // All news data exists in 'news' object
   $newsData = $responseData->news;
 ?>

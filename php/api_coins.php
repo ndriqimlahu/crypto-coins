@@ -10,6 +10,6 @@
   // Decode JSON data into array
   $responseData = json_decode($jsonData);
 
-  // All crypto data exists in 'coins' object
-  $cryptoData = $responseData->coins;
+  // All stats data exists in 'coins' object
+  $statsData = $responseData->coins;
 ?>
