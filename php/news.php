@@ -39,12 +39,6 @@
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- JavaScript -->
-  <script src="../js/scripts.js" type="text/javascript"></script>
-
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -72,6 +66,12 @@
       newsDataFromApiNews($newsData);
     }
   ?>
+  <button type="button" class="btn btn-lg btn-primary btn-floating" id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="../js/scripts.js" type="text/javascript"></script>
 </body>
 
 </html>
