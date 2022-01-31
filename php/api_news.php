@@ -12,4 +12,7 @@
 
   // All news data exists in 'news' object
   $newsData = $responseData->news;
+
+  // Select 50 records of data
+  $newsData = array_slice($newsData, 0, 50);
 ?>
