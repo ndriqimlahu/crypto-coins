@@ -3,7 +3,6 @@
   session_start();
   require "./api_news.php";
   require "./news_list.php";
-  require "./no_news_list.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -63,9 +62,12 @@
       </div>
     </div>
   </nav>
-  <h1 class="text-white text-center align-middle">COMING SOON</h1>
   <?php
-    // call functions here
+    if (empty($newsData)) {
+      newsDataFromApiNews($newsData);
+    } else {
+      newsEmptyFromApiNews($newsData);
+    }
   ?>
 </body>
 
