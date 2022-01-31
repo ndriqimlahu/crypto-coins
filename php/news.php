@@ -14,7 +14,7 @@
   <meta name="title" content="Crypto Coins App" />
   <meta name="author" content="Ndriçim Lahu" />
 
-  <title>Crypto Coins App</title>
+  <title>Crypto Coins App | News</title>
 
   <!-- Favicons -->
   <link href="../assets/favicon/android-chrome-192x192.png" rel="android-chrome-icon" />
