@@ -41,6 +41,15 @@
   }
 
   function newsEmptyFromApiNews($newsData) {
-    //code
+    ?>
+    <br><br>
+      <div class="container text-center mb-3">
+        <div class="card bg-secondary rounded-3">
+          <div class="card-header h4 pt-2 text-white align-middle" style="height: 6rem;"><br>
+            Latest News
+          </div>
+        </div>
+      </div>
+    <?php
   }
 ?>
