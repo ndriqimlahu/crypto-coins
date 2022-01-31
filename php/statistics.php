@@ -2,8 +2,7 @@
   session_set_cookie_params(0);
   session_start();
   require "./api_coins.php";
-  require "./crypto_list.php";
-  require "./no_crypto_list.php";
+  require "./stats_list.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -64,10 +63,10 @@
     </div>
   </nav>
   <?php
-    if (empty($cryptoData)) {
-      noDataFromApi($cryptoData);
+    if (empty($statsData)) {
+      statsEmptyFromApiCoins($statsData);
     } else {
-      dataFromApiCoins($cryptoData);
+      statsDataFromApiCoins($statsData);
     }
   ?>
 </body>
