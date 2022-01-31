@@ -64,9 +64,9 @@
   </nav>
   <?php
     if (empty($newsData)) {
-      newsDataFromApiNews($newsData);
-    } else {
       newsEmptyFromApiNews($newsData);
+    } else {
+      newsDataFromApiNews($newsData);
     }
   ?>
 </body>
