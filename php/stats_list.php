@@ -54,7 +54,7 @@
               <tr class="h6 small text-white text-center align-middle">
                 <td><?php echo $stats->rank ?></td><br>
                 <td><a href="<?php echo $stats->websiteUrl ?>" target="_blank">
-                    <img src="<?php echo $stats->icon ?>" width="25" height="25">
+                    <img src="<?php echo $stats->icon ?>" width="25" height="25" alt="Crypto Logo">
                     <?php echo $stats->name ?> (<?php echo $stats->symbol ?>)</a></td>
                 <td>$<?php echo $stats->price ?></td>
                 <td>$<?php echo $stats->volume ?></td>
