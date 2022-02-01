@@ -226,7 +226,7 @@ sup {
 
 a {
   color: #ee0979;
-  text-decoration: underline;
+  text-decoration: none !important;
 }
 a:hover {
   color: #be0761;
@@ -11317,6 +11317,9 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
+header.masthead h1, header.masthead .h1 {
+  font-size: 2.25rem;
+}
 header.masthead .masthead-content {
   z-index: 1;
   position: relative;
@@ -11358,11 +11361,31 @@ header.masthead .bg-circle-4 {
   top: -5rem;
   right: 35%;
 }
-
+hr.divider {
+  height: 0.2rem !important;
+  max-width: 3.25rem;
+  margin: 1.5rem auto;
+  background-color: #99b5ed;
+  opacity: 1;
+}
+@media (min-width: 1200px) {
+header.masthead h1, header.masthead .h1 {
+    font-size: 3.5rem;
+}
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
+    /* padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem; */
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead h1, header.masthead .h1 {
+    font-size: 3rem;
+  }
+  header.masthead p {
+    font-size: 1.10rem;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
