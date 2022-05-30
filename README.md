@@ -41,14 +41,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The project called `Crypto Coins App` is an web application which aims to display dynamic data such as statistics on cryptocurrencies, as well as provide news with the latest information regarding cryptocurrencies. This web application is simple to use, as all you need is to open it and explore the menu categories which provide data from API, such as statistics and news. In this web application you can navigate into different pages which are “Home”, “Statistics” and “News”.
+The project called `Crypto Coins App` is an website which aims to display dynamic data such as statistics on cryptocurrencies, as well as provide news with the latest information regarding cryptocurrencies. This website is simple to use, as all you need is to open it and explore the menu categories which provide data from API, such as statistics and news. In this website you can navigate into different pages which are “Home”, “Statistics” and “News”.
 
 This project started from scratch where I worked and completed, also I made some improvements in the front-end and back-end side of Web Development, such as creating of the API endpoint for statistics and news data, fetching data from API statistics, developing and designing the Statistics tables with data, handling the API for statistics data if they can't be requested or something similar, fetching data from API news, developing and designing the News cards with data, handling the API for news data if they can't be requested or something similar, providing data on specific page as much as it can, creating and calling some functions for reloading data & scroll and many more things.
 
 
 ### Built With
 
-This web application is based on technologies like below:
+This website is based on technologies like below:
 
 * HTML5
 * CSS3
@@ -65,7 +65,7 @@ By getting started with the project, first you need to take a look at the requir
 
 ### Prerequisites
 
-In order to open this web application is required to have an IDE or Code Editor (Visual Studio Code), an Web Server (XAMPP) and an Browser (Google Chrome).
+In order to open this website is required to have an IDE or Code Editor (Visual Studio Code), an Web Server (XAMPP) and an Browser (Google Chrome).
 
 
 ### Installation
@@ -76,7 +76,7 @@ In order to open this web application is required to have an IDE or Code Editor 
    ```
 2. Open the XAMPP and start the `Apache` module.
 3. After that you can open the repo folder with your IDE or Code Editor.
-4. Launch the web application with Browser by typing the URL `http://localhost/CryptoCoinsApp/` to open the specific file.
+4. Launch the website with Browser by typing the URL `http://localhost/CryptoCoinsApp/` to open the specific file.
 
 
 <!-- USAGE -->
