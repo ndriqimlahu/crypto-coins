@@ -1,14 +1,14 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img src="https://github.com/ndriqimlahu/NdriqimLahuPortfolio/blob/main/assets/portfolio/CryptoCoinsApp.png" alt="Logo" width="250" height="250">
+  <img src="https://github.com/ndriqimlahu/ndriqim-lahu-portfolio/blob/main/assets/portfolio/CryptoCoinsApp.png" alt="Logo" width="250" height="250">
   <h3 align="center">Crypto Coins App</h3>
   <p align="center">
     Ndriçim Lahu
     <br>
     <br>
-    <a href="https://github.com/ndriqimlahu/CryptoCoinsApp/issues">Report Bug</a>
+    <a href="https://github.com/ndriqimlahu/crypto-coins-app/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ndriqimlahu/CryptoCoinsApp/issues">Request Feature</a>
+    <a href="https://github.com/ndriqimlahu/crypto-coins-app/issues">Request Feature</a>
   </p>
 </p>
 
@@ -72,11 +72,11 @@ In order to open this website is required to have an IDE or Code Editor (Visual 
 
 1. Download the code or Clone the repo:
    ```terminal
-   git clone https://github.com/ndriqimlahu/CryptoCoinsApp.git
+   git clone https://github.com/ndriqimlahu/crypto-coins-app.git
    ```
 2. Open the XAMPP and start the `Apache` module.
 3. After that you can open the repo folder with your IDE or Code Editor.
-4. Launch the website with Browser by typing the URL `http://localhost/CryptoCoinsApp/` to open the specific file.
+4. Launch the website with Browser by typing the URL `http://localhost/crypto-coins-app/` to open the specific file.
 
 
 <!-- USAGE -->
@@ -91,14 +91,6 @@ There you can see some useful additional screenshots of how the project looks li
 ## License
 
 Distributed under the Apache License 2.0. See `LICENSE` for more information.
-
-
-<!-- CONTACT -->
-## Contact
-
-**LinkedIn:** https://www.linkedin.com/in/ndriçimlahu
-
-**Mail:** ndriqim_lahu@hotmail.com
 
 
 <!-- SUPPORT -->
