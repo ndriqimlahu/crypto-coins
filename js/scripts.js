@@ -48,7 +48,7 @@ window.addEventListener("load", function() {
       allow: 'Allow cookies',
       deny: 'Decline',
       link: 'Learn more',
-      href: 'https://www.learn-about-cookies.com',
+      href: 'https://www.cookiesandyou.com',
       close: '&#x274c;',
     }
   })
