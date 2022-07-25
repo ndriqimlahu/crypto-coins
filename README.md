@@ -83,17 +83,40 @@ In order to open this website is required to have an IDE or Code Editor (Visual 
 
 There you can see some useful additional screenshots of how the project looks like and how can be used.
 
+* Home page (Responsive for Desktop)
 <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins-app/main/preview/01.1-Home%20page%20(Responsive%20for%20Desktop).png">
+
+* Home page (Responsive for Laptop)
 <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins-app/main/preview/01.2-Home%20page%20(Responsive%20for%20Laptop).png">
+
+* Home page (Responsive for Mobile)
 <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins-app/main/preview/01.3-Home%20page%20(Responsive%20for%20Mobile).png">
+
+* Statistics page (Responsive for Desktop)
 <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins-app/main/preview/02.1-Statistics%20page%20(Responsive%20for%20Desktop).png">
+
+* Statistics page (Responsive for Laptop)
 <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins-app/main/preview/02.2-Statistics%20page%20(Responsive%20for%20Laptop).png">
+
+* Statistics page (Responsive for Mobile)
 <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins-app/main/preview/02.3-Statistics%20page%20(Responsive%20for%20Mobile).png">
+
+* News page (Responsive for Desktop)
 <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins-app/main/preview/03.1-News%20page%20(Responsive%20for%20Desktop).png">
+
+* News page (Responsive for Desktop)
 <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins-app/main/preview/03.2-News%20page%20(Responsive%20for%20Desktop).png">
+
+* News page (Responsive for Laptop)
 <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins-app/main/preview/03.3-News%20page%20(Responsive%20for%20Laptop).png">
+
+* News page (Responsive for Laptop)
 <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins-app/main/preview/03.4-News%20page%20(Responsive%20for%20Laptop).png">
+
+* News page (Responsive for Mobile)
 <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins-app/main/preview/03.5-News%20page%20(Responsive%20for%20Mobile).png">
+
+* News page (Responsive for Mobile)
 <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins-app/main/preview/03.6-News%20page%20(Responsive%20for%20Mobile).png">
 
 
