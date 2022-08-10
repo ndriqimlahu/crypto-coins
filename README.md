@@ -89,9 +89,6 @@ There you can see some useful additional screenshots of how the project looks li
 * Home page (Responsive for Laptop)
 <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/01.2-Home%20page%20(Responsive%20for%20Laptop).png">
 
-* Home page (Responsive for Mobile)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/01.3-Home%20page%20(Responsive%20for%20Mobile).png">
-
 * Statistics page (Responsive for Desktop)
 <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/02.1-Statistics%20page%20(Responsive%20for%20Desktop).png">
 
