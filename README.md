@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
   <img src="https://github.com/ndriqimlahu/ndriqim-lahu-portfolio/blob/main/assets/portfolio/CryptoCoins.png" alt="Logo" width="250" height="250">
-  <h3 align="center">Crypto Coins App</h3>
+  <h3 align="center">Crypto Coins</h3>
   <p align="center">
     Ndriçim Lahu
     <br>
