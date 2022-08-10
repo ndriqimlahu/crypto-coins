@@ -11,10 +11,10 @@
   <!-- Meta Data -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="title" content="Crypto Coins App" />
+  <meta name="title" content="Crypto Coins" />
   <meta name="author" content="Ndriçim Lahu" />
 
-  <title>Crypto Coins App | Statistics</title>
+  <title>Crypto Coins | Statistics</title>
 
   <!-- Favicons -->
   <link href="../assets/favicon/android-chrome-192x192.png" rel="android-chrome-icon" />
@@ -49,7 +49,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light navbar-custom mb-5">
     <div class="container px-5">
-      <a class="navbar-brand text-white" href="../index.html">Crypto Coins App</a>
+      <a class="navbar-brand text-white" href="../index.html">Crypto Coins</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto">
