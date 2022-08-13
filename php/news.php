@@ -10,6 +10,7 @@
 <head>
   <!-- Meta Data -->
   <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="30">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="title" content="Crypto Coins" />
   <meta name="author" content="Ndriçim Lahu" />
