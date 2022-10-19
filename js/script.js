@@ -1,55 +1,29 @@
+// It gets the actual year and then appears inside of the specific id selector
+function copyrightYear() {
+  document.querySelector('#copyright-year').innerText = new Date().getFullYear();
+}
+window.onload = copyrightYear();
+
+// It disable the mouse Right-Click to prevent from opening Context Menu
+function disableRightClick() {
+	document.addEventListener("contextmenu", (e) => {
+		e.preventDefault();
+	}, false);
+}
+window.onload = disableRightClick();
+
+// It disable the keyboard Control & Function keys to prevent from opening Source Code
+function disableShortcutKey() {
+	document.addEventListener("keydown", (e) => {
+	  if (e.ctrlKey || (e.keyCode>=112 && e.keyCode<=123)) {
+		e.stopPropagation();
+		e.preventDefault();
+	  }
+	});
+}
+window.onload = disableShortcutKey();
+
 // Reloading the data
 function reloadDataFromApi() {
   window.location.reload(true);
 }
-
-// Get the button
-let mybutton = document.getElementById("btn-back-to-top");
-
-// When the user scrolls down 20px from the top of the page, then show the button
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (
-    document.body.scrollTop > 20 ||
-    document.documentElement.scrollTop > 20
-  ) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, then scroll to the top of the page
-mybutton.addEventListener("click", backToTop);
-
-function backToTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
-// Show an alert to notify the user about the website which use cookies
-window.addEventListener("load", function() {
-  window.cookieconsent.initialise({
-    "palette": {
-      "popup": {
-        "background": "#6C757D"
-      },
-      "button": {
-        "background": "#0B5ED7"
-      },
-    },
-    content: {
-      header: 'Cookies used on the website!',
-      message: 'This website uses cookies to ensure you get the best experience on our website.',
-      dismiss: 'Got it!',
-      allow: 'Allow cookies',
-      deny: 'Decline',
-      link: 'Learn more',
-      href: 'https://www.cookiesandyou.com',
-      close: '&#x274c;',
-    }
-  })
-});
