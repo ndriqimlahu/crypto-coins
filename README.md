@@ -1,133 +1,76 @@
-<!-- PROJECT LOGO -->
-<p align="center">
-  <img src="https://github.com/ndriqimlahu/ndriqim-lahu-portfolio/blob/main/assets/portfolio/CryptoCoins.png" alt="Logo" width="250" height="250">
-  <h3 align="center">Crypto Coins</h3>
-  <p align="center">
-    Ndriçim Lahu
-    <br>
-    <br>
-    <a href="https://github.com/ndriqimlahu/crypto-coins/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/ndriqimlahu/crypto-coins/issues">Request Feature</a>
-  </p>
-</p>
+# Crypto Coins
 
+**Crypto Coins** is a website designed to deliver real-time data and insights into the dynamic world of cryptocurrencies. Whether you’re a seasoned trader or new to the crypto space, the platform is tailored to meet the needs of all users. It serves as a one-stop hub for accessing vital information, helping users make informed decisions in a fast-paced market. The website combines accuracy, speed, and simplicity to enhance the way users interact with cryptocurrency data.
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#support">Support</a></li>
-  </ol>
-</details>
+This project offers a comprehensive view of cryptocurrency statistics through an interactive table, giving users quick access to essential metrics such as market capitalization, price changes, and trading volumes. Additionally, it features a dedicated news section to keep users updated with the latest developments, trends, and insights into the crypto space. By combining functionality with an intuitive interface, the website ensures a smooth experience for users at any level of familiarity with cryptocurrencies.
 
+## Built With
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+This website was developed using the following technologies and resources:
+- **HTML**
+- **CSS**
+- **Bootstrap**
+- **JavaScript**
+- **PHP**
+- **CoinStats API** — [Reference link](https://cryptocointracker.com/api/coinstats)
+- **Start Bootstrap Creative** — [Reference link](https://startbootstrap.com/theme/creative)
 
-The project called `Crypto Coins` is an website which aims to display dynamic data such as statistics on cryptocurrencies, as well as provide news with the latest information regarding cryptocurrencies. This website is simple to use, as all you need is to open it and explore the menu categories which provide data from API, such as statistics and news. In this website you can navigate into different pages which are “Home”, “Statistics” and “News”.
+## Features
 
-This project started from scratch where I worked and completed, also I made some improvements in the front-end and back-end side of Web Development, such as creating of the API endpoint for statistics and news data, fetching data from API statistics, developing and designing the Statistics tables with data, handling the API for statistics data if they can't be requested or something similar, fetching data from API news, developing and designing the News cards with data, handling the API for news data if they can't be requested or something similar, providing data on specific page as much as it can, creating and calling some functions for reloading data & scroll and many more things.
+✅ **Real-Time Statistics:** Offers up-to-date data on cryptocurrency prices, market capitalization, trading volumes, and price changes displayed in a user-friendly table view.
 
+✅ **Latest News:** Provides a dedicated section for the latest updates, trends, and developments in the cryptocurrency world to keep users informed.
 
-### Built With
+✅ **Reload Option:** Allows users to refresh the displayed cryptocurrency data effortlessly, ensuring they always have access to the most current information.
 
-This website is based on technologies like below:
+✅ **Data Accuracy:** Prioritizes accurate and reliable cryptocurrency data, sourced from trusted providers to ensure users can make informed decisions.
 
-* HTML5
-* CSS3
-* Bootstrap
-* JavaScript
-* PHP
+✅ **Secure Experience:** Employs robust security measures to protect user data and ensure safe interactions within the platform.
 
+✅ **User-Friendly Interface:** Ensures a seamless and intuitive browsing experience, making it easy for users of all expertise levels to navigate and access information.
 
-<!-- GETTING STARTED -->
-## Getting Started
+✅ **Responsive Design:** Features a fully responsive layout that ensures a smooth experience across devices, including desktops, tablets, and smartphones.
 
-By getting started with the project, first you need to take a look at the required `Prerequisites` and after that the `Installation` steps.
+## Prerequisites
 
+Before starting, ensure the following is installed on your system:
+- **XAMPP**
+  - Download the [XAMPP](https://www.apachefriends.org/download.html).
+  - Follow the [installation guide](https://www.apachefriends.org/faq_windows.html) to install and configure it properly.
+  - XAMPP is required to run the web server, execute PHP code, and manage the MySQL database locally.
+  - Verify your PHP installation by running the following command in your terminal:
+    ```
+    php -v
+    ```
+  - Ensure your system's `PATH` is properly configured to allow PHP commands to run globally from any location.
 
-### Prerequisites
+## Installation
 
-In order to open this website is required to have an IDE or Code Editor (Visual Studio Code), an Web Server (XAMPP) and an Browser (Google Chrome).
-
-
-### Installation
-
-1. Download the code or Clone the repo:
-   ```terminal
+1. Clone or download the repository to your local machine:
+   ```
    git clone https://github.com/ndriqimlahu/crypto-coins.git
    ```
-2. Open the XAMPP and start the `Apache` module.
-3. After that you can open the repo folder with your IDE or Code Editor.
-4. Launch the website with Browser by typing the URL `http://localhost/crypto-coins/` to open the specific file.
+2. Ensure the repository folder is placed under the `htdocs` directory within your **XAMPP** installation folder, so that the web server can detect and run the web application.
+3. Launch the **XAMPP Control Panel** and start the **Apache** service.
+4. Navigate to `http://localhost/crypto-coins/` using any modern web browser to view the web application locally.
 
+## Screenshots
 
-<!-- USAGE -->
-## Usage
+Below you can see some additional useful screenshots of what the website looks like and how it can be used:
 
-There you can see some useful additional screenshots of how the project looks like and how can be used.
+- Home page | Statistics page
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/01.1-Home%20page%20(Responsive%20for%20Desktop).png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/02.1-Statistics%20page%20(Responsive%20for%20Desktop).png" align="top" width="48%" height="auto">
+   <hr>
+</div>
 
-* Home page (Responsive for Desktop)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/01.1-Home%20page%20(Responsive%20for%20Desktop).png">
+- News page | News page — More articles
+<div>
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/03.1-News%20page%20(Responsive%20for%20Desktop).png" align="top" width="48%" height="auto">
+   <img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/03.2-News%20page%20(Responsive%20for%20Desktop).png" align="top" width="48%" height="auto">
+</div>
 
-* Home page (Responsive for Laptop)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/01.2-Home%20page%20(Responsive%20for%20Laptop).png">
-
-* Statistics page (Responsive for Desktop)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/02.1-Statistics%20page%20(Responsive%20for%20Desktop).png">
-
-* Statistics page (Responsive for Laptop)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/02.2-Statistics%20page%20(Responsive%20for%20Laptop).png">
-
-* Statistics page (Responsive for Mobile)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/02.3-Statistics%20page%20(Responsive%20for%20Mobile).png">
-
-* News page (Responsive for Desktop)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/03.1-News%20page%20(Responsive%20for%20Desktop).png">
-
-* News page (Responsive for Desktop)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/03.2-News%20page%20(Responsive%20for%20Desktop).png">
-
-* News page (Responsive for Laptop)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/03.3-News%20page%20(Responsive%20for%20Laptop).png">
-
-* News page (Responsive for Laptop)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/03.4-News%20page%20(Responsive%20for%20Laptop).png">
-
-* News page (Responsive for Mobile)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/03.5-News%20page%20(Responsive%20for%20Mobile).png">
-
-* News page (Responsive for Mobile)
-<img src="https://raw.githubusercontent.com/ndriqimlahu/crypto-coins/main/preview/03.6-News%20page%20(Responsive%20for%20Mobile).png">
-
-
-<!-- LICENSE -->
-## License
-
-See the `LICENSE` file for more information.
-
-
-<!-- SUPPORT -->
 ## Support
 
-Issues and feature requests are welcome!
-
-Give a ⭐️ if you liked this project!
-
-Support the author on <a href="https://www.buymeacoffee.com/ndriqimlahu">Buy Me a Coffee</a>
+If you find this project useful, please consider giving it a star!
